@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronograma de estudos</title>
+    <style>
+        tr {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <header style="text-align: center;">
+        <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Cronograma</h1>
+    </header>
+
+    <main>
+        <table align="center" border="1" style="width: 500px; border-spacing: 0; font-size: 20px;">
+            <thead>
+                <tr>
+                    <th style="background-color: antiquewhite; padding: 20px;"></th>
+                    <th style="background-color: aqua; padding: 20px;">Segunda</th>
+                    <th style="background-color: aqua; padding: 20px;">Terça</th>
+                    <th style="background-color: aqua; padding: 20px;">Quarta</th>
+                    <th style="background-color: aqua; padding: 20px;">Quinta</th>
+                    <th style="background-color: aqua; padding: 20px;">Sexta</th>
+                    <th style="background-color: aqua; padding: 20px;">Sábado</th>
+                    <th style="background-color: aqua;">Domingo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="background-color: green; padding: 20px;">08:00 - 12:00</td>
+                    <td colspan="5" style="background-color: antiquewhite;">Escola</td>
+                    <td colspan="2" style="background-color: antiquewhite;">Dormir</td>
+                </tr>
+
+                <tr>
+                    <td style="background-color: green; padding: 20px;">12:00 - 13:00</td>
+                    <td colspan="7" style="background-color: antiquewhite;">Almoço</td>
+                </tr>
+
+                <tr>
+                    <td style="background-color: green; padding: 20px;">13:00 - 15:00</td>
+                    <td rowspan="2" colspan="5" style="background-color: antiquewhite;">Trabalho</td>
+                    <td colspan="2" style="background-color: antiquewhite;">Games</td>
+                </tr>
+
+                <tr>
+                    <td style="background-color: green; padding: 20px;">15:00 - 18:00</td>
+                    <td rowspan="2" colspan="2" style="background-color: antiquewhite;">Estudos</td>
+                </tr>
+
+                <tr>
+                    <td style="background-color: green; padding: 20px;">18:00 - 22:30</td>
+                    <td colspan="5" style="background-color: antiquewhite;">Aulas Growdev</td>
+                </tr>
+
+                <tr>
+                    <td style="background-color: green; padding: 20px;">22:30 - 08:00</td>
+                    <td colspan="7" style="background-color: antiquewhite;">Dormir</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8" style="background-color: antiquewhite;">
+                        <img src="/logo-growdev.png" alt="">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
 </body>
 </html>
